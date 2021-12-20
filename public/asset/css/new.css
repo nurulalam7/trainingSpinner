@@ -1,0 +1,384 @@
+/* basic setup */
+* {
+     padding: 0;
+     margin: 0;
+     outline: none;
+     box-sizing: border-box;
+}
+
+body {
+     font-family: "Roboto", sans-serif;
+}
+
+/* style for title of div */
+
+.title-div {
+     color: #0c154a;
+     width: 100%;
+     margin: 0 auto;
+     overflow: hidden;
+     text-align: center;
+     line-height: 1.2em;
+     display: inline-block;
+   }
+   
+   .title-div::before {
+     border-bottom: 1px solid #0c154a;
+     content: "";
+     display: inline-block;
+     height: 0.65em;
+     margin: 0 -1px 0 -100%;
+     vertical-align: top;
+     width: 50%;
+   }
+   
+   .title-div::after {
+     border-bottom: 1px solid #0c154a;
+     content: "";
+     display: inline-block;
+     height: 0.65em;
+     margin: 0 -100% 0 0;
+     vertical-align: top;
+     width: 50%;
+   }
+
+/* style for title of div */
+
+
+/* -------------------------------- 
+ style for header section start 
+ -------------------------------- */
+
+/* Style for Header Top */
+
+
+.bg-gray,
+.bg-lightgray {
+  background-color: white;
+  border-bottom: 2px solid gray;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+  margin: 0.4rem;
+}
+
+.bg-gray:hover,
+.bg-lightgray:hover {
+  border-bottom: 2px solid #1d9cd7;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+  -webkit-box-shadow: 5px 5px 5px gray;
+  box-shadow: 5px 5px 5px gray;
+}
+
+
+.header-top i,
+.header-top a,
+.header-top p {
+     color: #0F97D5;
+     font-size: 12px;
+     margin: 0;
+}
+
+.header-top .header-top-item a img {
+     height: 15px;
+     width: 15px;
+}
+
+/* style for header bottom */
+
+.navbar-nav .nav-link {
+     font-size: 16px;
+     padding: 5px;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a:active,
+.navbar-nav li a.show {
+     background: #0F97D5 !important;
+     color: white !important;
+     transform: scale(1.02);
+     transition: linear 0.5s !important;
+     -webkit-transition: linear 0.5s !important;
+     -moz-transition: linear 0.5s !important;
+     -ms-transition: linear 0.5s !important;
+     -o-transition: linear 0.5s !important;
+     -webkit-transform: scale(1.02);
+     -moz-transform: scale(1.02);
+     -ms-transform: scale(1.02);
+     -o-transform: scale(1.02);
+}
+
+/* style for navbar toggle button */
+
+.navbar-main .navbar-toggler {
+     background: #0F97D5 !important;
+}
+
+.navbar-main .navbar-toggler span {
+     font-size: 14px;
+}
+
+/* --------------------------------
+ style for header section end  
+ -------------------------------- */
+
+
+/*  --------------------------------
+style for footer section start
+ -------------------------------- */
+
+/* style for footer main section */
+.footer-section {
+     font-size: 14px;
+     color: white;
+     background: #242c42;
+     padding: 20px 0;
+}
+
+.footer-title {
+     color: #1ea4d9;
+     font-size: 20px;
+}
+
+.footer-section ul li {
+     padding: 7px 0;
+}
+
+.footer-section ul li:hover a {
+     color: #24ff5e !important;
+     text-decoration: none;
+     transition: linear 0.5s;
+     -webkit-transition: linear 0.5s;
+     -moz-transition: linear 0.5s;
+     -ms-transition: linear 0.5s;
+     -o-transition: linear 0.5s;
+}
+
+.footer-section ul li i {
+     padding-right: 3px;
+}
+
+/* style for footer bottom */
+
+.footer-bottom {
+     background: #010b40;
+     color: white;
+     padding: 15px 0;
+}
+
+.footer-bottom ul li span {
+     color: #1ea4d9;
+}
+
+.footer-bottom ul li a {
+     color: white;
+     text-decoration: none;
+     padding: 10px;
+}
+
+/* style for copyright */
+
+.copyright {
+     background: #232330;
+     color: white;
+     padding: 5px 0;
+}
+
+.copyright p {
+     font-size: 12px;
+     margin-bottom: 0;
+}
+
+.copyright p a {
+     text-decoration: none;
+}
+
+.copyright .link a {
+     padding: 0 5px;
+     font-size: 25px;
+}
+
+.copyright .link a:hover {
+     color: #24ff5e !important;
+     transition: linear 0.5s;
+     -webkit-transition: linear 0.5s;
+     -moz-transition: linear 0.5s;
+     -ms-transition: linear 0.5s;
+     -o-transition: linear 0.5s;
+}
+
+/* --------------------------------
+ style for footer section end
+  -------------------------------- */
+
+
+
+  /* --------------------------------
+   ********index page***********
+     -------------------------------- */
+
+/* --------------------------------
+Style for banner section start
+ -------------------------------- */
+
+.banner nav {
+     position: absolute;
+     background-color: transparent;
+     bottom: 1rem;
+     left: 10%;
+   }
+   
+   .breadcrumb {
+     background-color: transparent;
+   }
+   
+   .breadcrumb a {
+     color: rgb(1, 143, 199);
+     text-decoration: none;
+   }
+   
+   .banner .banner-title {
+     text-align: center;
+     color: white;
+     font-weight: bold;
+     font-size: 3rem;
+     position: absolute;
+     top: 45%;
+     width: 100%;
+   }
+
+   /* Style for banner btn */
+
+.f-12 {
+     font-size: 10px !important;
+   }
+   
+   .quota-btn {
+     background: #14a5ae;
+     color: #ffffff;
+     border: none;
+     -webkit-transition: 1s all;
+     transition: 1s all;
+   }
+   
+   .quota-btn:hover {
+     background: #1e384a;
+     color: white;
+   }
+   
+   .buy-btn {
+     background: #ffffff;
+     color: #14a5ae;
+     border: none;
+     -webkit-transition: 1s all;
+     transition: 1s all;
+     font-size: 1.5rem;
+   }
+   
+   .buy-btn:hover {
+     background: #1e384a;
+   }
+   
+   .package-btn {
+     background: #1dd758;
+   }
+
+   .carousel-caption {
+     bottom: -15px;
+   }
+   
+   .carousel-control-next,
+   .carousel-control-prev {
+     width: 3%;
+   }
+   
+   .Pricing-Submit-btn {
+     color: #1d9cd7;
+     background-color: white;
+     border: 1px solid #1d9cd7;
+     -webkit-transition: 1s all;
+     transition: 1s all;
+     text-transform: capitalize;
+   }
+   
+   .Pricing-Submit-btn:hover {
+     color: white;
+     background-color: #1d9cd7;
+     -webkit-transition: 1s all;
+     transition: 1s all;
+   }
+/* --------------------------------
+ Style for banner section end
+  -------------------------------- */
+
+
+/* --------------------------------
+ style for future section start 
+  -------------------------------- */
+   
+   .feature-section {
+     color: #0c154a;
+     padding-top: 20px;
+   }
+   
+   .feature-section .feature-div {
+     padding: 2rem 0 0 0;
+     transition: all 300ms;
+     border-radius: 12px;
+   }
+   
+   .feature-section .feature-div:hover {
+     border: 1px solid #1dd758 !important;
+     color: #8ce80c;
+     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+   }
+   
+/* --------------------------------
+ style for future section end 
+  -------------------------------- */
+
+
+/* --------------------------------
+ Style for App Section Start
+  -------------------------------- */
+
+.app-section .app-item{
+     height: 180px;
+}
+.app-section .app-icon-link i{
+     padding: 10px 0;
+}
+/* --------------------------------
+ Style for App Section End
+  -------------------------------- */
+
+
+/* --------------------------------
+ Style for Client Review Start
+  -------------------------------- */
+
+.client-review .client-box{
+     height: 400px;
+}
+.client-review .client-box img{
+     width: 70px;
+     height: 70px;
+}
+
+.client-review .name-and-designation .name{
+     font-size: 14px;
+}
+
+.client-review .name-and-designation .designation{
+     font-size: 16px;
+}
+/* --------------------------------
+ Style for Client Review End
+  -------------------------------- */
+/* ecommerce woocommerce */
+.heading__primary{
+     padding-top: 1.5rem;
+     padding-bottom: 2px;
+     text-align: center;
+}
+

@@ -1,0 +1,561 @@
+@media(max-width: 1010px){
+     .navbar-dark .navbar-nav .nav-link {
+          font-size: 12px;
+     }
+     .services--section .services__sub-main .services__sub-content h4 span {
+          font-size: 25px;
+     }
+     .services--section .services__sub-main .services__sub-content .services__price--tag span:last-child {
+          font-size: 2rem;
+     }
+     .services--section .services__sub-main .services__sub-content .services__price--tag span:first-child {
+          font-size: 1.5rem;
+     }
+}
+@media(max-width: 768px) {
+
+     /* style for header section start */
+
+     /* Style for Header Top */
+
+     .header-top .header-top-item {
+          padding: 5px 0;
+     }
+
+     .header-top i,
+     .header-top a,
+     .header-top p {
+          font-size: 10px;
+     }
+
+     /* style for header bottom */
+
+     .navbar-nav .nav-link {
+          font-size: 14px;
+          padding: 3px;
+     }
+
+     .navbar-nav li a {
+          font-size: 13px;
+     }
+
+     .navbar-nav li a:hover,
+     .navbar-nav li a:active,
+     .navbar-nav li a.show {
+          transform: scale(1.01);
+          -webkit-transform: scale(1.01);
+          -moz-transform: scale(1.01);
+          -ms-transform: scale(1.01);
+          -o-transform: scale(1.01);
+     }
+
+     .multiple-dropdown-main {
+          flex-direction: column;
+          display: flex !important;
+     }
+
+     /* style for header end */
+
+     /* style for footer section start */
+
+     .footer-section {
+          font-size: 12px;
+     }
+
+     .footer-title {
+          font-size: 16px;
+     }
+
+     .footer-section ul li {
+          padding: 4px 0;
+     }
+
+     .footer-bottom ul li a {
+          padding: 6px;
+          font-size: 12px;
+     }
+
+     .copyright p {
+          font-size: 11px;
+     }
+
+     .copyright .link a {
+          padding: 2px 5px;
+          font-size: 16px;
+     }
+
+     /* style for footer section end */
+
+
+     /* Style for banner Section Start */
+
+     .banner .banner-title {
+          text-align: center;
+          font-size: 1.5rem;
+          top: 40%;
+          width: 100%;
+     }
+
+     /* Style for banner Section End */
+     /* Style for Services Section Start */
+
+     .feature-section .feature-div p {
+          font-size: 14px;
+     }
+
+     /* Style for Services Section End */
+
+     /* Style for Who we are Section Start */
+
+     .who-we-are-div .text-title {
+          font-size: 26px;
+     }
+
+     .who-we-are-div p {
+          font-size: 15px;
+     }
+
+     /* Style for Who we are Section End */
+
+     /* Style for Course Section Start */
+
+     .course-section .text-title {
+          font-size: 24px;
+     }
+
+     .course-section p,
+     .course-section a {
+          font-size: 14px;
+     }
+
+     .phils-des h4 {
+          font-size: 20px;
+     }
+
+     /* Style for Course Section End */
+
+     /* Style for Typed Section Start */
+
+     .typed-section h3 {
+          font-size: 24px;
+     }
+
+     /* Style for Typed Section End */
+
+     /* Style For App Section Start */
+
+     .app-section .app-icon-link h6 {
+          font-size: 14px;
+     }
+
+     .app-section .app-icon-link p {
+          font-size: 12px;
+          margin: 0;
+     }
+
+     .app-section .app-icon-link a {
+          font-size: 9px;
+     }
+
+     /* Style For App Section End */
+
+     /* banner of all page */
+     .banner {
+          padding-bottom: 0;
+          height: 250px;
+     }
+
+     /* service section */
+
+     .services--section .services__sub-main ul li {
+          margin: 0;
+     }
+
+     .services--section .services__sub-main .services__sub-content .services__price--tag span:last-child {
+          font-size: 3rem;
+     }
+
+     /* ecommerce woocommerce */
+
+     .ecommerce--content p,
+     .ecommerce--content a {
+          font-size: 1rem !important;
+          line-height: 1.6rem !important;
+     }
+
+     /* erp solution */
+     .services--section .company__use-technology,
+     .services--section .company__worked-with{
+          margin-top: 2rem;
+     }
+
+     /* cctv */
+
+     .services--section .service__cctv-packages table th,
+     .services--section .service__cctv-packages table tr td{
+          font-size: 1rem;
+     } 
+     .services--section .services__content-box .menu--links  {
+          display: none;
+     }
+
+     
+
+}
+
+@media (max-width: 480px) {
+
+     /* style for header section start */
+
+     /* Style for Header Top */
+
+     .header-top .header-top-item {
+          padding: 2px 0;
+     }
+
+     .header-top i, .header-top a, .header-top p {
+          font-size: 10px;
+          text-align: center;
+     }
+
+     .header-top .header-top-item a img {
+          height: 10px;
+          width: 12px;
+     }
+
+     /* style for header bottom */
+
+     .navbar-nav .nav-link {
+          font-size: 12px;
+          padding: 2px;
+     }
+
+     .navbar-nav li a {
+          font-size: 11px;
+     }
+
+     /* style for header section end */
+
+     .menu--links{
+          display: none;
+     }
+
+     /* style for footer section start */
+
+     .footer-section {
+          font-size: 10px;
+     }
+
+     .footer-title {
+          font-size: 12px;
+     }
+
+     .footer-section ul li {
+          padding: 2px 0;
+     }
+
+     .footer-bottom {
+          padding: 5px 0;
+     }
+
+     .footer-bottom .list-unstyled {
+          margin-bottom: 3px;
+     }
+
+     .footer-bottom ul li a {
+          padding: 2px;
+          font-size: 9px;
+     }
+
+     .footer-bottom .list-unstyled span {
+          display: none;
+     }
+
+     .copyright p {
+          font-size: 9px;
+     }
+
+     .copyright .link a {
+          padding: 2px 4px;
+          font-size: 12px;
+     }
+
+     /* style for footer section end */
+
+     /* Style for Services Section Start */
+
+     .feature-section .feature-div p {
+          font-size: 12px;
+     }
+
+     /* Style for Services Section End */
+
+     /* Style for Who we are Section Start */
+
+     .who-we-are {
+          padding: 1rem 0;
+     }
+
+     .who-we-are-div .text-title {
+          font-size: 22px;
+     }
+
+     .who-we-are-div p {
+          font-size: 12px;
+     }
+
+     /* Style for Who we are Section End */
+
+     /* Style for Course Section Start */
+     .course-section,
+     .Counselling-section {
+          padding: 1rem 0;
+     }
+
+     .course-section .text-title {
+          font-size: 20px;
+     }
+
+     .course-section p,
+     .course-section a {
+          font-size: 12px;
+          margin: 0;
+     }
+
+     .phils-des h4 {
+          font-size: 20px;
+     }
+
+     .phils-des a {
+          padding-top: 5px;
+     }
+
+     .tabs .link {
+          margin-top: 12px;
+     }
+
+     .tabs .link a {
+          font-size: 14px;
+     }
+
+     /* Style for Course Section End */
+
+     /* Style for Typed Section Start */
+
+     .typed-section h3 {
+          font-size: 18px;
+     }
+
+     /* Style for Typed Section End */
+
+     /* Style for Innovative Section Start */
+
+     .innovative-section ul li a {
+          font-size: 14px;
+     }
+     .innovative-section p{
+          font-weight: 200;
+     }
+
+     /* Style for Innovative Section End */
+
+     /* Style for App Section Start */
+
+     .app-section .app-item {
+          height: 150px;
+     }
+
+     /* Style for App Section End */
+
+     /* Style for Client Review Start */
+
+     .client-review .quotation {
+          font-size: 14px;
+     }
+
+     /* Style for Client Review End */
+
+     /* banner of all page */
+     .banner {
+          height: 150px;
+          padding: 0;
+     }
+
+     /* service section */
+     .services--section .services__content-box .menu--links .menu__content p {
+          padding: 7px 10px;
+     }
+
+     .services--section .services__content-box .menu--links .menu__content p a {
+          font-size: 0.8rem;
+     }
+
+     .services--section .services__content-box .services__content--info-text p {
+          font-size: 14px;
+     }
+
+     /* service title */
+     .services--section .services__sub-main .services__sub-content h4 {
+          font-size: 1.8rem;
+          padding: 1rem 1.5rem;
+     }
+
+     .services--section .services__sub-main .services__sub-content .services__price--tag span:last-child {
+          font-size: 2.4rem;
+     }
+
+     .services--section .services__sub-main .row {
+          margin-bottom: 2rem;
+     }
+
+     .services--section .services__button {
+          margin-top: 0;
+     }
+
+     .services--section .choose--reason .row {
+          margin-bottom: .4rem;
+     }
+
+     .services--section .services__content-mobile h4 {
+          font-size: 1.5rem;
+     }
+
+     .services--section .all__apps-collapse .tab-content h4 {
+          font-size: 1.4rem;
+     }
+
+     .services--section .scalable__apps .scalable__content h4 {
+          font-size: 1.2rem;
+     }
+
+     .services--section .choose--reason .choose--reason-heading {
+          font-size: 1.4rem;
+     }
+
+     .services--section .choose--reason .choose--reason--sub {
+          font-size: 1rem;
+          padding-bottom: 1rem;
+     }
+
+     .services--section .choose--reason .choose__partners span i {
+          font-size: .8rem;
+          padding: 1rem;
+     }
+
+     .services--section .choose--reason .choose__partners p:last-child {
+          font-size: 1.2rem;
+     }
+
+     .services--section .choose--reason .choose__parterns_info p {
+          font-size: 1rem;
+     }
+
+     .services--section .development__approach h4 {
+          font-size: 1.4rem;
+     }
+
+     .services--section .mobile__solutions h4 {
+          font-size: 1.2rem;
+     }
+
+     .services--section .services__button a:link,
+     .services--section .services__button a:visited {
+          font-size: 1rem;
+     }
+
+     /* customer software dev */
+
+     .services--section .services__content-box .services__content--info-text h3 {
+          font-size: 1.4rem !important;
+     }
+
+     .services--section .services__content-box .custom_services__sub-main table thead th:not(:first-child) {
+          padding: 1rem 0 !important;
+     }
+
+     .services--section .services__content-box .custom_services__sub-main table tbody tr:first-child td:first-child,
+     .services--section .services__content-box .custom_services__sub-main table tr th,
+     .services--section .services__content-box .custom_services__sub-main table tr td {
+          font-size: 12px !important;
+          padding: 0.5rem !important;
+     }
+
+     /* web app */
+
+     .services--section .services__content-box .services__content--info-text {
+          margin-bottom: 1rem;
+     }
+
+     /* ecommerce woocommerce */
+
+     .heading__primary h4,
+     .heading__primary h4{
+          font-size: 1.4rem;
+     }
+
+     .services--section .ecomerce--technologies,
+     .services--section .ecommerce__feature-list{
+          margin: 1rem 0;
+     }
+     
+     .ecomerce--technologies .card{
+          padding-bottom: 10px !important;
+     }
+
+     /* contact us */
+     .contact-body .nav-tabs .nav-item .nav-link{
+          font-size: 1rem;
+     }
+
+     #head-office iframe{
+          width: 100%;
+     }
+     .banner .banner-title {
+          text-align: center;
+          font-size: 1rem;
+          top: 40%;
+          width: 100%;
+     }
+     .blog_details .details h1{
+          font-size: 25px;
+     }
+     .blog_details .details h4 {
+          margin-left: 0;
+          padding-bottom: 15px;
+     }
+     .domain_hosting .domain_part h2 {
+          font-size: 18px;
+          padding: 10px 0;
+     }
+     .domain_hosting .domain_part form input[type="search"] {
+          width: 80%;
+          margin-right: 0;
+          padding: 10px;
+          border: none;
+          border-radius: 3px;
+     }
+     .domain_hosting .domain_part .price ul li {
+          display: inline-block;
+          margin: 5px;
+          padding: 0;
+          border-left: none;
+          color: #4cd137;
+     }
+     .domain_hosting .domain_part .price ul li:last-child {
+          border-right: none;
+     }
+     .domain_hosting .package_part h2 {
+          color: #242c42;
+          text-transform: uppercase;
+          font-size: 25px;
+     }
+     .domain_hosting .package_part h4 {
+          font-size: 11px;
+          color: #0f88b8;
+          font-weight: bold;
+          margin-bottom: 30px;
+     }
+     .domain_hosting .package_part .pack_item {
+          margin-bottom: 20px;
+     }
+}
