@@ -21,7 +21,7 @@ const Course = () => {
                         <div className="card-body">
                             <h4 className="card-title">Web Design</h4>
                             <p>Price: 3000 TK</p>
-                            <button className="btn btn-outline-info"><a style="text-decoration: none;" href="web_details.html">View Details</a></button>
+                            <button className="btn btn-outline-info"><a style={{textDecoration: "none"}} href="web_details.html">View Details</a></button>
                         </div>
                     </div>
                     <div className="card">
@@ -31,7 +31,7 @@ const Course = () => {
                         <div className="card-body">
                             <h4 className="card-title">Web Design</h4>
                             <p>Price: 3000 TK</p>
-                            <button className="btn btn-outline-info"><a style="text-decoration: none;" href="web_details.html">View Details</a></button>
+                            <button className="btn btn-outline-info"><a style={{textDecoration: "none"}} href="web_details.html">View Details</a></button>
                         </div>
                     </div>
                     <div className="card">
@@ -41,7 +41,7 @@ const Course = () => {
                         <div className="card-body">
                             <h4 className="card-title">Web Design</h4>
                             <p>Price: 3000 TK</p>
-                            <button className="btn btn-outline-info"><a style="text-decoration: none;" href="web_details.html">View Details</a></button>
+                            <button className="btn btn-outline-info"><a style={{textDecoration: "none"}} href="web_details.html">View Details</a></button>
                         </div>
                     </div>
                     <div className="card">
@@ -51,7 +51,7 @@ const Course = () => {
                         <div className="card-body">
                             <h4 className="card-title">Web Design</h4>
                             <p>Price: 3000 TK</p>
-                            <button className="btn btn-outline-info"><a style="text-decoration: none;" href="web_details.html">View Details</a></button>
+                            <button className="btn btn-outline-info"><a style={{textDecoration: "none"}} href="web_details.html">View Details</a></button>
                         </div>
                     </div>
                     <div className="card">
@@ -61,7 +61,7 @@ const Course = () => {
                         <div className="card-body">
                             <h4 className="card-title">Web Design</h4>
                             <p>Price: 3000 TK</p>
-                            <button className="btn btn-outline-info"><a style="text-decoration: none;" href="web_details.html">View Details</a></button>
+                            <button className="btn btn-outline-info"><a style={{textDecoration: "none"}} href="web_details.html">View Details</a></button>
                         </div>
                     </div>
                     <div className="card">
@@ -71,7 +71,7 @@ const Course = () => {
                         <div className="card-body">
                             <h4 className="card-title">Web Design</h4>
                             <p>Price: 3000 TK</p>
-                            <button className="btn btn-outline-info"><a style="text-decoration: none;" href="web_details.html">View Details</a></button>
+                            <button className="btn btn-outline-info"><a style={{textDecoration: "none"}} href="web_details.html">View Details</a></button>
                         </div>
                     </div>
                     </div>

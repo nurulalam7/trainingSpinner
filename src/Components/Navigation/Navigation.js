@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navigation = () => {
     return (
@@ -19,15 +20,22 @@ const Navigation = () => {
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle page-scroll" href="#date" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">COURSES</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="web_details.html"><span class="item-text">WEB DESIGN</span></a>
+                        <Link class="dropdown-item" to="/web_design"><span class="item-text">WEB DESIGN</span></Link>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="web_dev_details.html"><span class="item-text">WEB DEVELOPMENT</span></a>
+                        <Link class="dropdown-item" to="/web_development"><span class="item-text">WEB DEVELOPMENT</span></Link>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="graphices.html"><span class="item-text">GRAPHICES DESIGN</span></a>
+                        <Link class="dropdown-item" to="/graphices.html"><span class="item-text">GRAPHICES DESIGN</span></Link>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="app_dev.html"><span class="item-text">APP DEVELOPMENT</span></a>
+                        <Link class="dropdown-item" to="/app_dev.html"><span class="item-text">APP DEVELOPMENT</span></Link>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="seo.html"><span class="item-text">SEO</span></a>
+                       
+                        <Link class="dropdown-item" to="/seo.html"><span class="item-text">SEO</span></Link>
+                        <div class="dropdown-divider"></div>
+                       
+                        <Link class="dropdown-item" to="reactcourse.html"><span class="item-text">React</span></Link>
+                        
+                       
+                
                     </div>
                 </li>
                 {/* <!-- end of dropdown menu --> */}

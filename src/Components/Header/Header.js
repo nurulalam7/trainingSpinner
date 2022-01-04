@@ -1,8 +1,11 @@
 import React from 'react'
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 const Header = () => {
     return (
-        <div>
+        <div  className='mt-5'>
              {/* <!-- Header --> */}
     <header id="header" className="header">
         <div className="container">
@@ -29,8 +32,8 @@ const Header = () => {
         <div className="outer-container">
             <div className="slider-container">
                 <div className="swiper-container image-slider-1">
-                    <div className="swiper-wrapper">
-                        
+                <OwlCarousel className='owl-theme' items={1} loop autoplay={true} nav >
+                     
                         {/* <!-- Slide --> */}
                         <div className="swiper-slide" >
                             <img className="img-fluid" src="training/images/details-slide-1.jpg" alt="alternative"/>
@@ -48,14 +51,9 @@ const Header = () => {
                             <img className="img-fluid" src="training/images/details-slide-3.jpg" alt="alternative"/>
                         </div>
                         {/* <!-- end of slide --> */}
+                        
 
-                    </div> 
-                    {/* <!-- end of swiper-wrapper --> */}
-                    
-                    {/* <!-- Add Arrows --> */}
-                    <div className="swiper-button-next"></div>
-                    <div className="swiper-button-prev"></div>
-                    {/* <!-- end of add arrows --> */}
+                </OwlCarousel>
                     
                 </div> 
                 {/* <!-- end of swiper-container --> */}
